@@ -48,7 +48,7 @@
 ## 4. 授权状态
 
 - COCO 标注里 `"licenses": []`，为空。
-- 数据集 README 原文：「原始本地竞赛数据不在本 README 中声明公共许可证。」
+- 数据集 README 说明：原始数据未声明公共许可证。
 - 其中 23 张来自公开补充数据 [Nuts and Bolts](https://universe.roboflow.com/jente-kleinh/nuts-and-bolts)，许可证为 **CC BY 4.0**，需要保留署名。
 
 因此：
