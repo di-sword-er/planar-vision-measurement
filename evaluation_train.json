@@ -1,0 +1,892 @@
+{
+  "split": "train",
+  "objective_max": 75,
+  "human_review_max": 25,
+  "truth_scope": "synthetic_geometry_only",
+  "tasks": {
+    "task1": {
+      "expected": 64,
+      "missing": 0,
+      "extra_sample_ids": [],
+      "valid_geometry_fraction": 1.0,
+      "mean_IoU": 0.9993259785639985,
+      "per_sample": [
+        {
+          "sample_id": "surface_disk_001",
+          "iou": 0.9985997344851729,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.2200054164673346
+        },
+        {
+          "sample_id": "surface_disk_002",
+          "iou": 0.9986539431320067,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.1822795312325264
+        },
+        {
+          "sample_id": "surface_disk_003",
+          "iou": 0.9986153907719396,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.4325160682210103
+        },
+        {
+          "sample_id": "surface_disk_004",
+          "iou": 0.9986261455077977,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.2185818671479388
+        },
+        {
+          "sample_id": "surface_disk_005",
+          "iou": 0.9988339897157205,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.07913939362037509
+        },
+        {
+          "sample_id": "surface_disk_006",
+          "iou": 0.9983073448661366,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.2857764425549479
+        },
+        {
+          "sample_id": "surface_disk_007",
+          "iou": 0.9986039398963908,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.5367331338041886
+        },
+        {
+          "sample_id": "surface_disk_008",
+          "iou": 0.9987061431171499,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.6582924345626363
+        },
+        {
+          "sample_id": "surface_disk_009",
+          "iou": 0.9986275686215689,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.12556318265959024
+        },
+        {
+          "sample_id": "surface_disk_010",
+          "iou": 0.9985768045332705,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.25242317166379086
+        },
+        {
+          "sample_id": "surface_disk_011",
+          "iou": 0.998600114744693,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.21814731959810907
+        },
+        {
+          "sample_id": "surface_disk_012",
+          "iou": 0.9987721306250181,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.2593278237873025
+        },
+        {
+          "sample_id": "surface_disk_013",
+          "iou": 0.9987232880453335,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.24495072085790345
+        },
+        {
+          "sample_id": "surface_disk_014",
+          "iou": 0.9987187956679279,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.25108047673915135
+        },
+        {
+          "sample_id": "surface_disk_015",
+          "iou": 0.9987562892192888,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.13001976814370167
+        },
+        {
+          "sample_id": "surface_disk_016",
+          "iou": 0.9986600547855716,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.1925088549009388
+        },
+        {
+          "sample_id": "surface_disk_017",
+          "iou": 0.9986626093507307,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.13386497906591666
+        },
+        {
+          "sample_id": "surface_disk_018",
+          "iou": 0.9986698309207304,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.4040891294848166
+        },
+        {
+          "sample_id": "surface_disk_019",
+          "iou": 0.9984593873799228,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.4616747288054675
+        },
+        {
+          "sample_id": "surface_disk_020",
+          "iou": 0.9986286177659587,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.21748817033380907
+        },
+        {
+          "sample_id": "surface_disk_021",
+          "iou": 0.9986243410709331,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.47946086880336486
+        },
+        {
+          "sample_id": "surface_disk_022",
+          "iou": 0.998547367102874,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.21629179279066432
+        },
+        {
+          "sample_id": "surface_disk_023",
+          "iou": 0.9985831934900394,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.30573186092193944
+        },
+        {
+          "sample_id": "surface_disk_024",
+          "iou": 0.9988014083451944,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.30066924096169584
+        },
+        {
+          "sample_id": "surface_disk_025",
+          "iou": 0.9986405113127585,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.11910301019615681
+        },
+        {
+          "sample_id": "surface_disk_026",
+          "iou": 0.9985419248244527,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.35640342725580815
+        },
+        {
+          "sample_id": "surface_disk_027",
+          "iou": 0.9987565218033017,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.18103733252883158
+        },
+        {
+          "sample_id": "surface_disk_028",
+          "iou": 0.9987837085144193,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.425834228771679
+        },
+        {
+          "sample_id": "surface_disk_029",
+          "iou": 0.998764965437745,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.27211523727652004
+        },
+        {
+          "sample_id": "surface_disk_030",
+          "iou": 0.998768667197679,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.14854829962173025
+        },
+        {
+          "sample_id": "surface_disk_031",
+          "iou": 0.9985584140848915,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.11939855841948084
+        },
+        {
+          "sample_id": "surface_disk_032",
+          "iou": 0.9986894817592908,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.24527702809977925
+        },
+        {
+          "sample_id": "surface_square_001",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.1862136925231901
+        },
+        {
+          "sample_id": "surface_square_002",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.1265514866220299
+        },
+        {
+          "sample_id": "surface_square_003",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.27782258676343213
+        },
+        {
+          "sample_id": "surface_square_004",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.21260850962379266
+        },
+        {
+          "sample_id": "surface_square_005",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.10698691400332616
+        },
+        {
+          "sample_id": "surface_square_006",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.16279905449919022
+        },
+        {
+          "sample_id": "surface_square_007",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.13504535634435486
+        },
+        {
+          "sample_id": "surface_square_008",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.21072654737483168
+        },
+        {
+          "sample_id": "surface_square_009",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.1276199290293545
+        },
+        {
+          "sample_id": "surface_square_010",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.11645692577778344
+        },
+        {
+          "sample_id": "surface_square_011",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.3001177248213651
+        },
+        {
+          "sample_id": "surface_square_012",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.10767733196143255
+        },
+        {
+          "sample_id": "surface_square_013",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.11160684670628668
+        },
+        {
+          "sample_id": "surface_square_014",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.14566448801768658
+        },
+        {
+          "sample_id": "surface_square_015",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.12693482699841716
+        },
+        {
+          "sample_id": "surface_square_016",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.12085873874787378
+        },
+        {
+          "sample_id": "surface_square_017",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.07654956511882449
+        },
+        {
+          "sample_id": "surface_square_018",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.25874303829543543
+        },
+        {
+          "sample_id": "surface_square_019",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.26961837098718994
+        },
+        {
+          "sample_id": "surface_square_020",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.1995021054876378
+        },
+        {
+          "sample_id": "surface_square_021",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.18675342118204097
+        },
+        {
+          "sample_id": "surface_square_022",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.24849827513132564
+        },
+        {
+          "sample_id": "surface_square_023",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.22382252691654003
+        },
+        {
+          "sample_id": "surface_square_024",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.19031087135199287
+        },
+        {
+          "sample_id": "surface_square_025",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.11168156938839008
+        },
+        {
+          "sample_id": "surface_square_026",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.12948355244888854
+        },
+        {
+          "sample_id": "surface_square_027",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.17807645889525894
+        },
+        {
+          "sample_id": "surface_square_028",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.22504040302353248
+        },
+        {
+          "sample_id": "surface_square_029",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.20190885415274662
+        },
+        {
+          "sample_id": "surface_square_030",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.33432765528399105
+        },
+        {
+          "sample_id": "surface_square_031",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.07767476470173877
+        },
+        {
+          "sample_id": "surface_square_032",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.11450890908657756
+        }
+      ],
+      "valid_only_point_errors": {
+        "count": 384,
+        "MAE_mm": 0.22307070000883697,
+        "RMSE_mm": 0.2610780152572025,
+        "P95_mm": 0.48499277716278855,
+        "max_mm": 0.7101117958363664
+      },
+      "point_error_capped_mean_mm": 0.22307070000883694,
+      "segmentation_points": 15.0,
+      "calibration_points": 19.553858599982327,
+      "objective_points": 34.55385859998233,
+      "objective_max": 35
+    },
+    "task2": {
+      "expected": 64,
+      "missing": 0,
+      "extra_sample_ids": [],
+      "valid_geometry_fraction": 1.0,
+      "mean_IoU": 0.9990018756016286,
+      "per_sample": [
+        {
+          "sample_id": "bolt_001",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "length_error_mm": 0.1093740504839289,
+          "diameter_error_mm": 0.1669801127590782
+        },
+        {
+          "sample_id": "bolt_002",
+          "iou": 0.9984231274638633,
+          "mask_status": "ok",
+          "length_error_mm": 0.06533026285420362,
+          "diameter_error_mm": 0.03771160303018828
+        },
+        {
+          "sample_id": "bolt_003",
+          "iou": 0.9976914197768373,
+          "mask_status": "ok",
+          "length_error_mm": 0.02006407122373588,
+          "diameter_error_mm": 0.039841177770086666
+        },
+        {
+          "sample_id": "bolt_004",
+          "iou": 0.998185666767463,
+          "mask_status": "ok",
+          "length_error_mm": 0.028395997032610865,
+          "diameter_error_mm": 0.10661598074135537
+        },
+        {
+          "sample_id": "bolt_005",
+          "iou": 0.9989229940764675,
+          "mask_status": "ok",
+          "length_error_mm": 0.026176472732473144,
+          "diameter_error_mm": 0.16447475417695223
+        },
+        {
+          "sample_id": "bolt_006",
+          "iou": 0.9990097375804589,
+          "mask_status": "ok",
+          "length_error_mm": 0.16640961870756854,
+          "diameter_error_mm": 0.011939327293989166
+        },
+        {
+          "sample_id": "bolt_007",
+          "iou": 0.9993359263826962,
+          "mask_status": "ok",
+          "length_error_mm": 0.10578409911910569,
+          "diameter_error_mm": 0.0009281991535452505
+        },
+        {
+          "sample_id": "bolt_008",
+          "iou": 0.9995872884853487,
+          "mask_status": "ok",
+          "length_error_mm": 0.006112641170950894,
+          "diameter_error_mm": 0.1663089288203361
+        },
+        {
+          "sample_id": "bolt_009",
+          "iou": 0.998598785614199,
+          "mask_status": "ok",
+          "length_error_mm": 0.028856605800754664,
+          "diameter_error_mm": 0.050349014569223804
+        },
+        {
+          "sample_id": "bolt_010",
+          "iou": 0.9989302906043858,
+          "mask_status": "ok",
+          "length_error_mm": 0.1668753294923846,
+          "diameter_error_mm": 0.18571118529514408
+        },
+        {
+          "sample_id": "bolt_011",
+          "iou": 0.9993642047260782,
+          "mask_status": "ok",
+          "length_error_mm": 0.0910083416887062,
+          "diameter_error_mm": 0.04510209268266152
+        },
+        {
+          "sample_id": "bolt_012",
+          "iou": 0.9985181526302791,
+          "mask_status": "ok",
+          "length_error_mm": 0.07186031808375049,
+          "diameter_error_mm": 0.17086598490965255
+        },
+        {
+          "sample_id": "bolt_013",
+          "iou": 0.9990160708428993,
+          "mask_status": "ok",
+          "length_error_mm": 0.09893805379692822,
+          "diameter_error_mm": 0.10411067578541378
+        },
+        {
+          "sample_id": "bolt_014",
+          "iou": 0.9982138870283546,
+          "mask_status": "ok",
+          "length_error_mm": 0.11395300430085342,
+          "diameter_error_mm": 0.007143704605266699
+        },
+        {
+          "sample_id": "bolt_015",
+          "iou": 0.9994305239179955,
+          "mask_status": "ok",
+          "length_error_mm": 0.10614620494828841,
+          "diameter_error_mm": 0.018961529943377187
+        },
+        {
+          "sample_id": "bolt_016",
+          "iou": 0.9985052316890882,
+          "mask_status": "ok",
+          "length_error_mm": 0.17401005900453015,
+          "diameter_error_mm": 0.04403801176415989
+        },
+        {
+          "sample_id": "bolt_017",
+          "iou": 0.9984224364592462,
+          "mask_status": "ok",
+          "length_error_mm": 0.08218838864209488,
+          "diameter_error_mm": 0.05094636808401454
+        },
+        {
+          "sample_id": "bolt_018",
+          "iou": 0.9975535168195718,
+          "mask_status": "ok",
+          "length_error_mm": 0.0038561764052928993,
+          "diameter_error_mm": 0.078710916789694
+        },
+        {
+          "sample_id": "bolt_019",
+          "iou": 0.998268534550606,
+          "mask_status": "ok",
+          "length_error_mm": 0.03264338552411061,
+          "diameter_error_mm": 0.19073377685276593
+        },
+        {
+          "sample_id": "bolt_020",
+          "iou": 0.9989822458441705,
+          "mask_status": "ok",
+          "length_error_mm": 0.006725089854086264,
+          "diameter_error_mm": 0.07780027506279552
+        },
+        {
+          "sample_id": "bolt_021",
+          "iou": 0.9992386752950133,
+          "mask_status": "ok",
+          "length_error_mm": 0.10377529219106663,
+          "diameter_error_mm": 0.17115061738230253
+        },
+        {
+          "sample_id": "bolt_022",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "length_error_mm": 0.00454531984547657,
+          "diameter_error_mm": 0.06678324467668517
+        },
+        {
+          "sample_id": "bolt_023",
+          "iou": 0.9984680199157411,
+          "mask_status": "ok",
+          "length_error_mm": 0.06564485001975129,
+          "diameter_error_mm": 0.1731846936859469
+        },
+        {
+          "sample_id": "bolt_024",
+          "iou": 0.9993888775718068,
+          "mask_status": "ok",
+          "length_error_mm": 0.08033895686405401,
+          "diameter_error_mm": 0.062185698888624685
+        },
+        {
+          "sample_id": "bolt_025",
+          "iou": 0.9992001066524463,
+          "mask_status": "ok",
+          "length_error_mm": 0.17168578209680163,
+          "diameter_error_mm": 0.1432893502691055
+        },
+        {
+          "sample_id": "bolt_026",
+          "iou": 0.9992905285562256,
+          "mask_status": "ok",
+          "length_error_mm": 0.12178489339888898,
+          "diameter_error_mm": 0.1790622915223743
+        },
+        {
+          "sample_id": "bolt_027",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "length_error_mm": 0.06862995588348753,
+          "diameter_error_mm": 0.0746739547179347
+        },
+        {
+          "sample_id": "bolt_028",
+          "iou": 0.999771506911916,
+          "mask_status": "ok",
+          "length_error_mm": 0.13496993714493044,
+          "diameter_error_mm": 0.060120332983061076
+        },
+        {
+          "sample_id": "bolt_029",
+          "iou": 0.998742665549036,
+          "mask_status": "ok",
+          "length_error_mm": 0.05941858951989332,
+          "diameter_error_mm": 0.007679751352445585
+        },
+        {
+          "sample_id": "bolt_030",
+          "iou": 0.9985581544376803,
+          "mask_status": "ok",
+          "length_error_mm": 0.0774999038476949,
+          "diameter_error_mm": 0.07319309948955954
+        },
+        {
+          "sample_id": "bolt_031",
+          "iou": 0.99861447869761,
+          "mask_status": "ok",
+          "length_error_mm": 0.02931834993243143,
+          "diameter_error_mm": 0.0033613566429835373
+        },
+        {
+          "sample_id": "bolt_032",
+          "iou": 0.9980300859598854,
+          "mask_status": "ok",
+          "length_error_mm": 0.012668818484847577,
+          "diameter_error_mm": 0.1846819399624291
+        },
+        {
+          "sample_id": "bolt_033",
+          "iou": 0.9978427142576975,
+          "mask_status": "ok",
+          "length_error_mm": 0.22366829753158157,
+          "diameter_error_mm": 0.09701057138699554
+        },
+        {
+          "sample_id": "bolt_034",
+          "iou": 0.999266862170088,
+          "mask_status": "ok",
+          "length_error_mm": 0.12367487411931677,
+          "diameter_error_mm": 0.16147484542035428
+        },
+        {
+          "sample_id": "bolt_035",
+          "iou": 0.9986965022811211,
+          "mask_status": "ok",
+          "length_error_mm": 0.15509582610691552,
+          "diameter_error_mm": 0.1803058114665399
+        },
+        {
+          "sample_id": "bolt_036",
+          "iou": 0.9984794728839331,
+          "mask_status": "ok",
+          "length_error_mm": 0.05284865359909929,
+          "diameter_error_mm": 0.0551917962673123
+        },
+        {
+          "sample_id": "bolt_037",
+          "iou": 0.9985625299472928,
+          "mask_status": "ok",
+          "length_error_mm": 0.05963653193310847,
+          "diameter_error_mm": 0.021432092296311822
+        },
+        {
+          "sample_id": "bolt_038",
+          "iou": 0.9986835609675827,
+          "mask_status": "ok",
+          "length_error_mm": 0.009647255004750832,
+          "diameter_error_mm": 0.0838938714113997
+        },
+        {
+          "sample_id": "bolt_039",
+          "iou": 0.9991868816912861,
+          "mask_status": "ok",
+          "length_error_mm": 0.12590028890617333,
+          "diameter_error_mm": 0.12136159905179511
+        },
+        {
+          "sample_id": "bolt_040",
+          "iou": 0.9992013842672701,
+          "mask_status": "ok",
+          "length_error_mm": 0.21171041495261989,
+          "diameter_error_mm": 0.0320827435448825
+        },
+        {
+          "sample_id": "bolt_041",
+          "iou": 0.9992121848739496,
+          "mask_status": "ok",
+          "length_error_mm": 0.014053948036981012,
+          "diameter_error_mm": 0.020514959772060415
+        },
+        {
+          "sample_id": "bolt_042",
+          "iou": 0.9981930820856996,
+          "mask_status": "ok",
+          "length_error_mm": 0.08144652929714624,
+          "diameter_error_mm": 0.14869535537041934
+        },
+        {
+          "sample_id": "bolt_043",
+          "iou": 0.9988165680473373,
+          "mask_status": "ok",
+          "length_error_mm": 0.03845108271944042,
+          "diameter_error_mm": 0.17000990338546806
+        },
+        {
+          "sample_id": "bolt_044",
+          "iou": 0.9980960440025386,
+          "mask_status": "ok",
+          "length_error_mm": 0.14339246141718576,
+          "diameter_error_mm": 0.018505803902039375
+        },
+        {
+          "sample_id": "bolt_045",
+          "iou": 0.9989928057553957,
+          "mask_status": "ok",
+          "length_error_mm": 0.0430830492062384,
+          "diameter_error_mm": 0.03872066139079955
+        },
+        {
+          "sample_id": "bolt_046",
+          "iou": 0.9985915492957746,
+          "mask_status": "ok",
+          "length_error_mm": 0.05543897579638468,
+          "diameter_error_mm": 0.005076447592878175
+        },
+        {
+          "sample_id": "bolt_047",
+          "iou": 0.9993407317877157,
+          "mask_status": "ok",
+          "length_error_mm": 0.05444521131742164,
+          "diameter_error_mm": 0.16850715324110155
+        },
+        {
+          "sample_id": "bolt_048",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "length_error_mm": 0.11564926091281791,
+          "diameter_error_mm": 0.0035590982842430563
+        },
+        {
+          "sample_id": "bolt_049",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "length_error_mm": 0.09607438474471763,
+          "diameter_error_mm": 0.1562997777196653
+        },
+        {
+          "sample_id": "bolt_050",
+          "iou": 0.9992615384615384,
+          "mask_status": "ok",
+          "length_error_mm": 0.13652304632157097,
+          "diameter_error_mm": 0.07708680177883664
+        },
+        {
+          "sample_id": "bolt_051",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "length_error_mm": 0.10431573071777223,
+          "diameter_error_mm": 0.05691730600712486
+        },
+        {
+          "sample_id": "bolt_052",
+          "iou": 0.9980996621621622,
+          "mask_status": "ok",
+          "length_error_mm": 0.093365048458665,
+          "diameter_error_mm": 0.029980555154100585
+        },
+        {
+          "sample_id": "bolt_053",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "length_error_mm": 0.004585271280951986,
+          "diameter_error_mm": 0.026282970094113622
+        },
+        {
+          "sample_id": "bolt_054",
+          "iou": 0.9980215431963069,
+          "mask_status": "ok",
+          "length_error_mm": 0.1619050383506746,
+          "diameter_error_mm": 0.133241110942933
+        },
+        {
+          "sample_id": "bolt_055",
+          "iou": 0.9991701244813278,
+          "mask_status": "ok",
+          "length_error_mm": 0.10684013700367245,
+          "diameter_error_mm": 0.001365110384581314
+        },
+        {
+          "sample_id": "bolt_056",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "length_error_mm": 0.0300816649474811,
+          "diameter_error_mm": 0.02412071784759906
+        },
+        {
+          "sample_id": "bolt_057",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "length_error_mm": 0.029889612067904636,
+          "diameter_error_mm": 0.221652948346291
+        },
+        {
+          "sample_id": "bolt_058",
+          "iou": 0.9992529880478087,
+          "mask_status": "ok",
+          "length_error_mm": 0.07095835491478653,
+          "diameter_error_mm": 0.11526249594418303
+        },
+        {
+          "sample_id": "bolt_059",
+          "iou": 0.9985587316838818,
+          "mask_status": "ok",
+          "length_error_mm": 0.08465268988678787,
+          "diameter_error_mm": 0.02890230157409679
+        },
+        {
+          "sample_id": "bolt_060",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "length_error_mm": 0.0577365679279751,
+          "diameter_error_mm": 0.12977059049259942
+        },
+        {
+          "sample_id": "bolt_061",
+          "iou": 0.998329435349148,
+          "mask_status": "ok",
+          "length_error_mm": 0.003051477399282021,
+          "diameter_error_mm": 0.040095565622594975
+        },
+        {
+          "sample_id": "bolt_062",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "length_error_mm": 0.2277073264147873,
+          "diameter_error_mm": 0.08724153714883176
+        },
+        {
+          "sample_id": "bolt_063",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "length_error_mm": 0.03297892195907792,
+          "diameter_error_mm": 0.033523959593311226
+        },
+        {
+          "sample_id": "bolt_064",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "length_error_mm": 0.0262498039004484,
+          "diameter_error_mm": 0.049268346923921236
+        }
+      ],
+      "valid_only_length_errors": {
+        "count": 64,
+        "MAE_mm": 0.08140697745702219,
+        "RMSE_mm": 0.09948583320493574,
+        "P95_mm": 0.17366141746837085,
+        "max_mm": 0.2277073264147873
+      },
+      "valid_only_diameter_errors": {
+        "count": 64,
+        "MAE_mm": 0.08524991814097715,
+        "RMSE_mm": 0.1061482515031092,
+        "P95_mm": 0.1840255206880457,
+        "max_mm": 0.221652948346291
+      },
+      "length_error_capped_mean_mm": 0.08140697745702219,
+      "diameter_error_capped_mean_mm": 0.08524991814097715,
+      "segmentation_points": 10.0,
+      "length_points": 14.877889533814466,
+      "diameter_points": 14.573750409295116,
+      "objective_points": 39.45163994310958,
+      "objective_max": 40
+    }
+  },
+  "objective_total": 74.0054985430919
+}

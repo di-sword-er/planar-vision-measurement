@@ -1,0 +1,8 @@
+{
+  "sample": "surface_square_036",
+  "auto_clean_pt_mm": 0.22463003965940467,
+  "auto_occluded": "failed",
+  "auto_reason": "RuntimeError: corner/P0..P3 assignment is ambiguous",
+  "manual_pt_mm": 0.22463003965940467,
+  "manual_iou": 1.0
+}

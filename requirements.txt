@@ -1,0 +1,4 @@
+numpy>=1.24
+opencv-python>=4.8
+# 仅用于 viz.py --lang zh 的中文标注；缺失时 viz.py 会自动回退英文
+Pillow>=9.0

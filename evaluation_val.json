@@ -1,0 +1,268 @@
+{
+  "split": "val",
+  "objective_max": 75,
+  "human_review_max": 25,
+  "truth_scope": "synthetic_geometry_only",
+  "tasks": {
+    "task1": {
+      "expected": 16,
+      "missing": 0,
+      "extra_sample_ids": [],
+      "valid_geometry_fraction": 1.0,
+      "mean_IoU": 0.9993442143497643,
+      "per_sample": [
+        {
+          "sample_id": "surface_disk_033",
+          "iou": 0.9987104645980521,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.1314475371521522
+        },
+        {
+          "sample_id": "surface_disk_034",
+          "iou": 0.9986291093399542,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.32626816860899166
+        },
+        {
+          "sample_id": "surface_disk_035",
+          "iou": 0.9987568226755544,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.16213832786133112
+        },
+        {
+          "sample_id": "surface_disk_036",
+          "iou": 0.9987588948830196,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.17022288849723385
+        },
+        {
+          "sample_id": "surface_disk_037",
+          "iou": 0.9986216345936899,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.3407317436119484
+        },
+        {
+          "sample_id": "surface_disk_038",
+          "iou": 0.9985800833017796,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.15652264508173486
+        },
+        {
+          "sample_id": "surface_disk_039",
+          "iou": 0.9987586621283002,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.1663301661058231
+        },
+        {
+          "sample_id": "surface_disk_040",
+          "iou": 0.9986917580758781,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.15436696897371885
+        },
+        {
+          "sample_id": "surface_square_033",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.13181519858620555
+        },
+        {
+          "sample_id": "surface_square_034",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.08768672281364864
+        },
+        {
+          "sample_id": "surface_square_035",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.1603992589304589
+        },
+        {
+          "sample_id": "surface_square_036",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.22463003965940467
+        },
+        {
+          "sample_id": "surface_square_037",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.23461228583233273
+        },
+        {
+          "sample_id": "surface_square_038",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.2015553640842418
+        },
+        {
+          "sample_id": "surface_square_039",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.13332183889828125
+        },
+        {
+          "sample_id": "surface_square_040",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "point_mean_error_mm": 0.18078724419447778
+        }
+      ],
+      "valid_only_point_errors": {
+        "count": 96,
+        "MAE_mm": 0.1851772749307491,
+        "RMSE_mm": 0.2043222073574873,
+        "P95_mm": 0.3318337678310317,
+        "max_mm": 0.49993011404969234
+      },
+      "point_error_capped_mean_mm": 0.1851772749307491,
+      "segmentation_points": 15.0,
+      "calibration_points": 19.6296454501385,
+      "objective_points": 34.6296454501385,
+      "objective_max": 35
+    },
+    "task2": {
+      "expected": 16,
+      "missing": 0,
+      "extra_sample_ids": [],
+      "valid_geometry_fraction": 1.0,
+      "mean_IoU": 0.9991498947883481,
+      "per_sample": [
+        {
+          "sample_id": "bolt_065",
+          "iou": 0.9992648860573389,
+          "mask_status": "ok",
+          "length_error_mm": 0.0726089510537733,
+          "diameter_error_mm": 0.1284661666656426
+        },
+        {
+          "sample_id": "bolt_066",
+          "iou": 0.9986468200270636,
+          "mask_status": "ok",
+          "length_error_mm": 0.024532581118151597,
+          "diameter_error_mm": 0.16280153606684777
+        },
+        {
+          "sample_id": "bolt_067",
+          "iou": 0.9991463935125907,
+          "mask_status": "ok",
+          "length_error_mm": 0.03004403730032834,
+          "diameter_error_mm": 0.009831406154228617
+        },
+        {
+          "sample_id": "bolt_068",
+          "iou": 0.9991570665917393,
+          "mask_status": "ok",
+          "length_error_mm": 0.14690751609676056,
+          "diameter_error_mm": 0.051448771261958015
+        },
+        {
+          "sample_id": "bolt_069",
+          "iou": 0.9987373737373737,
+          "mask_status": "ok",
+          "length_error_mm": 0.12397796755308832,
+          "diameter_error_mm": 0.11303606014691248
+        },
+        {
+          "sample_id": "bolt_070",
+          "iou": 0.9994644769725098,
+          "mask_status": "ok",
+          "length_error_mm": 0.014784103587324182,
+          "diameter_error_mm": 0.07705643017907704
+        },
+        {
+          "sample_id": "bolt_071",
+          "iou": 0.9990398463754201,
+          "mask_status": "ok",
+          "length_error_mm": 0.08390680489681301,
+          "diameter_error_mm": 0.08699904891089005
+        },
+        {
+          "sample_id": "bolt_072",
+          "iou": 0.999083269671505,
+          "mask_status": "ok",
+          "length_error_mm": 0.06598977154009589,
+          "diameter_error_mm": 0.003988501747829609
+        },
+        {
+          "sample_id": "bolt_073",
+          "iou": 0.9992886500158078,
+          "mask_status": "ok",
+          "length_error_mm": 0.14828063133575142,
+          "diameter_error_mm": 0.00473174639072127
+        },
+        {
+          "sample_id": "bolt_074",
+          "iou": 0.9978393950306086,
+          "mask_status": "ok",
+          "length_error_mm": 0.012317862862047946,
+          "diameter_error_mm": 0.14017251388356478
+        },
+        {
+          "sample_id": "bolt_075",
+          "iou": 0.9996236002634799,
+          "mask_status": "ok",
+          "length_error_mm": 0.028634309549225634,
+          "diameter_error_mm": 0.1759969455451973
+        },
+        {
+          "sample_id": "bolt_076",
+          "iou": 0.9995058474715862,
+          "mask_status": "ok",
+          "length_error_mm": 0.06339909389764387,
+          "diameter_error_mm": 0.1424017872007628
+        },
+        {
+          "sample_id": "bolt_077",
+          "iou": 1.0,
+          "mask_status": "ok",
+          "length_error_mm": 0.23433712398075102,
+          "diameter_error_mm": 0.06783194292029293
+        },
+        {
+          "sample_id": "bolt_078",
+          "iou": 0.9994383074330649,
+          "mask_status": "ok",
+          "length_error_mm": 0.07547673599941618,
+          "diameter_error_mm": 0.1362933837126441
+        },
+        {
+          "sample_id": "bolt_079",
+          "iou": 0.998773257002658,
+          "mask_status": "ok",
+          "length_error_mm": 0.14731465413459688,
+          "diameter_error_mm": 0.1482767337737556
+        },
+        {
+          "sample_id": "bolt_080",
+          "iou": 0.9993891264508247,
+          "mask_status": "ok",
+          "length_error_mm": 0.05195454240673314,
+          "diameter_error_mm": 0.10187132045314051
+        }
+      ],
+      "valid_only_length_errors": {
+        "count": 16,
+        "MAE_mm": 0.08277916795703133,
+        "RMSE_mm": 0.10226565561787392,
+        "P95_mm": 0.16979475449700132,
+        "max_mm": 0.23433712398075102
+      },
+      "valid_only_diameter_errors": {
+        "count": 16,
+        "MAE_mm": 0.09695026843834159,
+        "RMSE_mm": 0.11138779311012777,
+        "P95_mm": 0.16610038843643515,
+        "max_mm": 0.1759969455451973
+      },
+      "length_error_capped_mean_mm": 0.08277916795703133,
+      "diameter_error_capped_mean_mm": 0.09695026843834159,
+      "segmentation_points": 10.0,
+      "length_points": 14.875831248064454,
+      "diameter_points": 14.515248657808293,
+      "objective_points": 39.39107990587274,
+      "objective_max": 40
+    }
+  },
+  "objective_total": 74.02072535601124
+}
